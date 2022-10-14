@@ -1,0 +1,9 @@
+.about-component {
+  height: 50vh;
+  background-color: lightpink;
+  width: 95%;
+  margin: 0% auto;
+}
+.about-component > img {
+  object-fit: cover;
+}

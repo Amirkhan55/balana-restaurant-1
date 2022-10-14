@@ -1,0 +1,9 @@
+.menu-component {
+  height: 50vh;
+  background-color: lightpink;
+  width: 95%;
+  margin: 0% auto;
+}
+.menu-component > img {
+  object-fit: cover;
+}
