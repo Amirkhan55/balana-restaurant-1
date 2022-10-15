@@ -1,11 +1,11 @@
-import { Button } from "@mui/material";
+import { Button, FormControl } from "@mui/material";
 import React from "react";
 import "./home.css";
 const Home = () => {
   return (
     <div className="hero">
-      <div className="banner">
-        <div className="banner__content">
+      <div className="banner-image">
+      <div className="banner__content">
           <div className="container">
             <div className="banner__text">
               <h3> Enjoy Trandiional Food</h3>
@@ -19,6 +19,7 @@ const Home = () => {
             </div>
           </div>
         </div>
+
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
           <path
             fill="#fff"
@@ -36,7 +37,7 @@ const Home = () => {
         <div className="detail_of_restaurant">
           <div className="item">
             <img src="/img/chickenRost.jpg" alt="chicken pic" />
-          </div>{" "}
+          </div>
           <div className="item">
             <p>
               A restaurant doesn’t just have to be a place; it has a character.
@@ -53,12 +54,41 @@ const Home = () => {
             <br />
             <br />
 
-            <div className="last-Div">
+            <div className="medium-Div">
               <h1>Need info? Call us</h1>
               <h1>(051) 2650953</h1>
             </div>
           </div>
         </div>
+        <div className="last-Div">
+          <h1>Relax, UNWIND AND ENJOY </h1>
+          <p>FOOD design and environment all create a pleasant experiance</p>
+
+          <div className="items-containner">
+            <div className="item-Div">
+              <div className="image-Div">
+              <img src="/img/Chilli.jpg" alt="image" />
+              </div>
+              <div className="item-containt">
+              <h1>Health Food</h1>
+                <h3>Traditional Afghani food with delicious flavors, with the best ingredients, is something you’ll remember.</h3>
+              </div>
+             </div>
+
+             <div className="item-Div">
+              <div className="image-Div">
+              <FormControl/>
+              </div>
+              <div className="item-containt">
+              <h1>Health Food</h1>
+                <h3>Traditional Afghani food with delicious flavors, with the best ingredients, is something you’ll remember.</h3>
+              </div>
+             </div>
+             </div>
+</div>
+
+
+
       </div>
     </div>
   );

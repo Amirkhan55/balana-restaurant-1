@@ -9,12 +9,12 @@ const Navbar = () => {
         </div>
         <ul className="navbar__ul">
           <li>
-            <Link activeClass="active" smooth spy to="hero">
+            <Link activeClass="active"   to="home">
               Home
             </Link>
           </li>
           <li>
-            <Link activeClass="active" smooth spy to="prices">
+            <Link activeClass="active" smooth spy to="menu">
               Menu
             </Link>
           </li>
@@ -29,11 +29,11 @@ const Navbar = () => {
               About
             </Link>
           </li>
-          <li>
+          {/* <li>
             <Link activeClass="active" smooth spy to="">
               Contact
             </Link>
-          </li>
+          </li> */}
         </ul>
       </div>
     </nav>

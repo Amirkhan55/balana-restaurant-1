@@ -12,14 +12,11 @@ function App() {
       <header className="header_nav">
         <Navbar />
       </header>
-
       <Home />
-
-      <Menu />
+      {/* <Menu />
       <Delivery />
       <Clients />
-      <Menu />
-      <About />
+      <About /> */}
     </div>
   );
 }

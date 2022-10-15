@@ -1,3 +1,47 @@
+.menus {
+width: 95%;
+margin: auto;
+display: grid;
+grid-template-columns: auto auto;
+
+
+
+}
+
+.menu {
+  text-align: center;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+}
+.menu__img {
+  flex: 1;
+
+
+}
+.menu__img > img{
+  height: 200px;
+
+}
+.menu-containt{
+  flex: 2;
+}
+
+.menu__heading {
+  margin-top: 20px;
+  font-size: 25px;
+}
+.menu__text {
+  margin-top: 15px;
+  color: #888888;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.menu_rs {
+  font-size: 30px;
+  margin-top: 15px;
+}
+
 .menu-component {
   height: 50vh;
   background-color: lightpink;

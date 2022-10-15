@@ -6,7 +6,7 @@ const Delivery = () => {
       <div className="container">
         <div className="shop__text">
           <div>
-            <h1>Free Delivery small banu chawal plat</h1>
+            <h1>Free Delivery with Small pizza</h1>
             <div className="shop__btn">
               <a href="about" className="btn btn-smart">
                 SHOP NOW

@@ -1,7 +1,73 @@
-.about-restaurant {
-  width: 75%;
-
+.hero{
+  height: 100%;
+  width: 95%;
   margin: 0% auto;
+  display: block;
+
+}
+.banner-image {
+  height: fit-content;
+  margin: 0% auto;
+  width: 100%;
+  background-image: url('/public/img/bbq.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  object-fit: cover;
+
+}
+
+
+.banner__content {
+  align-items: center;
+  height: 100vh;
+  color: #fff;
+  display: flex;
+
+
+
+}
+.banner__text {
+  width: 100%;
+  margin: 0% auto;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+
+
+}
+.banner__text h3 {
+  font-size: 40px;
+}
+.banner__text h1 {
+  font-size: 60px;
+  line-height: 80px;
+  font-weight: 900;
+  margin-top: 20px;
+}
+.banner__text p {
+  font-size: 25px;
+  font-weight: 400;
+  margin-top: 20px;
+}
+.banner__btn {
+  margin-top: 35px;
+}
+
+.btn {
+  text-decoration: none;
+  border: none;
+  outline: none;
+  color: #fff;
+  font-weight: 700;
+  border-radius: 30px;
+  font-size: 12px;
+  padding: 20px 40px;
+}
+.about-restaurant {
+  margin: 0% auto;
+padding: 20px;
+  height: 50%;
+  width: 80%;
 }
 .about-restaurant span {
   color: lightpink;
@@ -13,27 +79,28 @@
 }
 .intro_of_restaurant {
   display: block;
+
 }
 .detail_of_restaurant {
   display: grid;
-  grid: 230px / auto auto;
-  grid-gap: 20px;
-
-  width: 100%;
+  grid-template-columns:  auto auto;
   height: fit-content;
+  gap: 10px;
+
 }
 .item {
   border-radius: 20px;
-  height: fit-content;
   text-align: center;
+  width: 500px;
   cursor: pointer;
+  /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
 
-  width: 70%;
-  display: block;
 }
 .item img {
-  object-fit: cover;
-  width: 600px;
+ height: 300px;
+object-fit: contain;
+border-radius: 20px;
+
 }
 .item > p {
   font-family: fantasy;
@@ -51,14 +118,52 @@
 .item > button:hover {
   background-color: rgb(199, 72, 72);
 }
-.last-Div {
+.medium-Div {
   padding: 10px;
   width: auto;
   height: 110px;
   color: lightcoral;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
   border-radius: 10px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   margin: 10px;
 }
+.last-Div{
+  height: auto;
+  width: 100%;
+  margin: 0% auto;
+  display: block;
+}
+.items-containner{
+  height: fit-content;
+  width: 100%;
+  margin: 0% auto;
+  display:flex;
+  flex-direction: row;
+
+
+}
+.item-Div{
+  height: fit-content;
+  width: 500px;
+  display: flex;
+  border-bottom-right-radius: 50px;
+  border-top-left-radius: 50%;
+padding: 20px;
+  height: fit-content;
+  flex-direction: row;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.image-Div{
+flex: 1;
+
+}
+.image-Div img{
+ width: 100px;
+}
+.items-containt{
+  flex: 1;
+}
+
+
