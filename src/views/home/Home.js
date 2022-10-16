@@ -1,4 +1,4 @@
-import { Button, FormControl } from "@mui/material";
+import { Button, Menu } from "@mui/material";
 import React from "react";
 import "./home.css";
 const Home = () => {
@@ -67,7 +67,10 @@ const Home = () => {
           <div className="items-containner">
             <div className="item-Div">
               <div className="image-Div">
-              <img src="/img/Chilli.jpg" alt="image" />
+             <div className="icons--Div">
+
+<Menu/>
+             </div>
               </div>
               <div className="item-containt">
               <h1>Health Food</h1>
@@ -77,7 +80,6 @@ const Home = () => {
 
              <div className="item-Div">
               <div className="image-Div">
-              <FormControl/>
               </div>
               <div className="item-containt">
               <h1>Health Food</h1>

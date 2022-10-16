@@ -161,9 +161,11 @@ flex: 1;
 }
 .image-Div img{
  width: 100px;
+ background-color: lightcoral;
 }
 .items-containt{
   flex: 1;
+  background-color: lightsteelblue;
 }
 
 
