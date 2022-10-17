@@ -223,3 +223,45 @@
   background-color: rgb(14, 1, 1);
   color: rgb(209, 198, 198);
 }
+/* .card-container {
+  display: grid;
+  grid: 230px / auto auto auto;
+  grid-gap: 20px;
+  padding: 10px;
+}
+.card-item {
+  border-radius: 20px;
+  background-color: rgb(226, 242, 242);
+  height: 200px;
+  margin-right: 10px;
+  text-align: center;
+  width: 80%;
+  cursor: pointer;
+}
+.card-item > img {
+  height: 200px;
+} */
+
+.card-container {
+  background-color: #eee;
+  width: 90%;
+  margin: 70px 0 0 50px;
+}
+.items1 {
+  background-color: rgb(218, 205, 145);
+}
+.items2 {
+  background-color: blue;
+}
+.items3 {
+  background-color: orangered;
+}
+.items4 {
+  background-color: rgb(108, 38, 13);
+}
+.items5 {
+  background-color: rgb(155, 234, 90);
+}
+.items6 {
+  background-color: rgb(73, 76, 71);
+}

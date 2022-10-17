@@ -145,6 +145,14 @@ const Home = () => {
           <div className="btn_color ">
             <Button variant="contained">View Over Full Menu</Button>
           </div>
+          <div className="card-container">
+            <div className="items1">first </div>
+            <div className="items2">second</div>
+            <div className="items3">third </div>
+            <div className="items4">forth</div>
+            <div className="items5">fifth </div>
+            <div className="items6">six</div>
+          </div>
         </div>
       </div>
     </div>
