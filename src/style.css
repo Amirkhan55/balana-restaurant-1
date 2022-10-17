@@ -25,7 +25,6 @@ body {
   background-color: rgba(39, 34, 54, 0.971);
 }
 
-
 .container {
   width: 1200px;
   max-width: 1200px;
@@ -34,7 +33,6 @@ body {
   justify-content: center;
   align-content: center;
 }
-
 
 .navbar {
   top: 0;
@@ -92,7 +90,6 @@ body {
   background-color: rgba(39, 34, 54, 0.971);
 }
 
-
 .p-25 {
   padding: 45px;
 }
@@ -116,13 +113,11 @@ body {
   width: 95%;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   height: 450px;
-  background-image: url('/public/img/food.jpg');
+  background-image: url("/public/img/food.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-
   background-attachment: fixed;
   margin: auto;
-
 }
 .shop__text {
   height: 450px;
@@ -146,7 +141,7 @@ body {
 
 .clients {
   padding: 100px 0;
-  background-image: url('/public/img/food.jpg');
+  background-image: url("/public/img/food.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   color: #fff;
@@ -167,8 +162,6 @@ body {
   font-weight: 400;
   margin-top: 10px;
 }
-
-
 
 @media (max-width: 700px) {
   .navbar__text {
@@ -219,7 +212,6 @@ body {
   .col-4,
   .col-6 {
     width: 100%;
-
   }
   .client {
     margin: 20px 0;

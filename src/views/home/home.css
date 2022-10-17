@@ -1,39 +1,29 @@
-.hero{
+.hero {
   height: 100%;
   width: 95%;
   margin: 0% auto;
-  display: block;
-
+  text-align: center;
 }
 .banner-image {
   height: fit-content;
   margin: 0% auto;
   width: 100%;
-  background-image: url('/public/img/bbq.jpg');
+  background-image: url("/public/img/meat.jpg");
   background-repeat: no-repeat;
-  background-position: center;
+
   object-fit: cover;
-
 }
-
 
 .banner__content {
   align-items: center;
   height: 100vh;
   color: #fff;
   display: flex;
-
-
-
 }
 .banner__text {
-  width: 100%;
-  margin: 0% auto;
   align-items: center;
   text-align: center;
   justify-content: center;
-
-
 }
 .banner__text h3 {
   font-size: 40px;
@@ -65,9 +55,9 @@
 }
 .about-restaurant {
   margin: 0% auto;
-padding: 20px;
+  padding: 20px;
   height: 50%;
-  width: 80%;
+  width: 95%;
 }
 .about-restaurant span {
   color: lightpink;
@@ -79,43 +69,43 @@ padding: 20px;
 }
 .intro_of_restaurant {
   display: block;
-
+  margin-bottom: 20px;
 }
+
 .detail_of_restaurant {
   display: grid;
-  grid-template-columns:  auto auto;
+  grid-template-columns: auto auto;
   height: fit-content;
   gap: 10px;
-
 }
 .item {
   border-radius: 20px;
   text-align: center;
   width: 500px;
   cursor: pointer;
-  /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
-
+  display: block;
 }
 .item img {
- height: 300px;
-object-fit: contain;
-border-radius: 20px;
-
+  height: 300px;
+  object-fit: contain;
+  border-radius: 10px;
+  margin-top: 10px;
 }
 .item > p {
   font-family: fantasy;
   font-weight: normal;
-  padding: 10px;
+  padding: 20px;
   text-align: left;
 }
 .Button-Div {
   float: left;
+  margin-left: 20px;
+  margin-bottom: 10px;
 }
 .Button-Div > button {
   background-color: rgb(224, 93, 93);
-  margin: 10px;
 }
-.item > button:hover {
+.Button-Div > button:hover {
   background-color: rgb(199, 72, 72);
 }
 .medium-Div {
@@ -129,43 +119,107 @@ border-radius: 20px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   margin: 10px;
 }
-.last-Div{
+.last-Div {
   height: auto;
   width: 100%;
   margin: 0% auto;
   display: block;
+  margin-top: 50px;
 }
-.items-containner{
+.items-containner {
   height: fit-content;
-  width: 100%;
-  margin: 0% auto;
-  display:flex;
-  flex-direction: row;
-
-
-}
-.item-Div{
-  height: fit-content;
-  width: 500px;
+  width: 90%;
   display: flex;
-  border-bottom-right-radius: 50px;
-  border-top-left-radius: 50%;
-padding: 20px;
-  height: fit-content;
+  margin: 10px;
   flex-direction: row;
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
-.image-Div{
-flex: 1;
-
+.item-1 {
+  height: fit-content;
+  width: 450px;
+  padding: 50px;
+  display: flex;
+  border-bottom-right-radius: 80px;
+  border-top-left-radius: 80px;
+  flex-direction: row;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+    rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
 }
-.image-Div img{
- width: 100px;
- background-color: lightcoral;
+.item-2 {
+  height: fit-content;
+  width: 450px;
+  padding: 50px;
+  display: flex;
+  margin-left: 3%;
+  border-bottom-right-radius: 80px;
+  border-top-left-radius: 80px;
+  flex-direction: row;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+    rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
 }
-.items-containt{
+.image-Div {
   flex: 1;
-  background-color: lightsteelblue;
 }
 
-
+.icon-Div {
+  width: 50px;
+  height: 50px;
+  background-color: rgb(224, 93, 93);
+  margin: 0% auto;
+  padding: 12px;
+  border-radius: 50%;
+}
+.item-containt {
+  flex: 3;
+}
+.taste-Div {
+  height: fit-content;
+  text-align: center;
+  margin: 50px 0px 0px 0px;
+  width: 100%;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+    rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+  background-image: url("/public/img/menu-pic.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.taste-items-1 {
+  display: grid;
+  grid: auto-flow / 1fr 1fr 1fr;
+}
+.taste-item {
+  height: fit-content;
+  display: block;
+  padding: 25px;
+}
+.taste-item > img {
+  height: 180px;
+  background-size: cover;
+  width: 180px;
+  border-radius: 50%;
+}
+.taste-item > h2 {
+  color: rgb(224, 93, 93);
+}
+.taste-item > button {
+  background-color: rgb(224, 93, 93);
+}
+.taste-item > button:hover {
+  background-color: rgb(199, 72, 72);
+}
+.taste-items-2 {
+  display: grid;
+  grid: auto-flow / 1fr 1fr 1fr;
+  background-attachment: fixed;
+}
+.btn_color {
+  background-color: rgb(246, 242, 242);
+}
+.btn_color > button {
+  background-color: rgb(54, 51, 51);
+  color: white;
+}
+.btn_color > button:hover {
+  background-color: rgb(14, 1, 1);
+  color: rgb(209, 198, 198);
+}

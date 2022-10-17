@@ -1,11 +1,13 @@
-import { Button, Menu } from "@mui/material";
+import { Apple, CardTravelSharp } from "@mui/icons-material";
+import { Button } from "@mui/material";
 import React from "react";
 import "./home.css";
+
 const Home = () => {
   return (
     <div className="hero">
       <div className="banner-image">
-      <div className="banner__content">
+        <div className="banner__content">
           <div className="container">
             <div className="banner__text">
               <h3> Enjoy Trandiional Food</h3>
@@ -52,8 +54,6 @@ const Home = () => {
             </div>
             <br />
             <br />
-            <br />
-
             <div className="medium-Div">
               <h1>Need info? Call us</h1>
               <h1>(051) 2650953</h1>
@@ -65,32 +65,87 @@ const Home = () => {
           <p>FOOD design and environment all create a pleasant experiance</p>
 
           <div className="items-containner">
-            <div className="item-Div">
+            <div className="item-1">
               <div className="image-Div">
-             <div className="icons--Div">
-
-<Menu/>
-             </div>
+                <div className="icon-Div">
+                  <Apple />
+                </div>
               </div>
               <div className="item-containt">
-              <h1>Health Food</h1>
-                <h3>Traditional Afghani food with delicious flavors, with the best ingredients, is something you’ll remember.</h3>
+                <h1>Health Food</h1>
+                <p>
+                  Traditional Afghani food with delicious flavors, with the best
+                  ingredients, is something you’ll remember.
+                </p>
+                <p>
+                  Traditional Afghani food with delicious flavors, with the best
+                  ingredients, is something you’ll remember.
+                </p>
               </div>
-             </div>
-
-             <div className="item-Div">
+            </div>
+            <div className="item-2">
               <div className="image-Div">
+                <div className="icon-Div">
+                  <CardTravelSharp />
+                </div>
               </div>
               <div className="item-containt">
-              <h1>Health Food</h1>
-                <h3>Traditional Afghani food with delicious flavors, with the best ingredients, is something you’ll remember.</h3>
+                <h1>Health Food</h1>
+                <p>
+                  Traditional Afghani food with delicious flavors, with the best
+                  ingredients, is something you’ll remember.
+                </p>
+                <p>
+                  Traditional Afghani food with delicious flavors, with the best
+                  ingredients, is something you’ll remember.
+                </p>
               </div>
-             </div>
-             </div>
-</div>
-
-
-
+            </div>
+          </div>
+          <div className="taste-Div">
+            <h1>Follow Your Taste</h1>
+            <span>
+              A restaurant with a menu that will excite your taste buds.
+            </span>
+            <div className="taste-items-1">
+              <div className="taste-item">
+                <img src="/img/chicken-rost.png" alt="meat" />
+                <h2>CHICKEN ROAST</h2>
+                <Button variant="contained">Show more</Button>
+              </div>
+              <div className="taste-item">
+                <img src="/img/food.jpg" alt="meat" />
+                <h2>CHICKen tandoori</h2>
+                <Button variant="contained">Show more</Button>
+              </div>
+              <div className="taste-item">
+                <img src="/img/bbq.jpg" alt="meat" />
+                <h2>Chicken malai</h2>
+                <Button variant="contained">Show more</Button>
+              </div>
+            </div>
+            <div className="taste-items-2">
+              <div className="taste-item">
+                <img src="/img/rice.jpg" alt="meat" />
+                <h2>Chawal </h2>
+                <Button variant="contained">Show more</Button>
+              </div>
+              <div className="taste-item">
+                <img src="/img/chickenMalai.jpeg" alt="meat" />
+                <h2>Chicken Malai</h2>
+                <Button variant="contained">Show more</Button>
+              </div>
+              <div className="taste-item">
+                <img src="/img/rostChicken.jpg" alt="meat" />
+                <h2>Chicken malai</h2>
+                <Button variant="contained">Show more</Button>
+              </div>
+            </div>
+          </div>
+          <div className="btn_color ">
+            <Button variant="contained">View Over Full Menu</Button>
+          </div>
+        </div>
       </div>
     </div>
   );
