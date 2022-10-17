@@ -65,7 +65,7 @@ const Home = () => {
           <p>FOOD design and environment all create a pleasant experiance</p>
 
           <div className="items-containner">
-            <div className="item-1">
+            <div className="cards">
               <div className="image-Div">
                 <div className="icon-Div">
                   <Apple />
@@ -83,7 +83,24 @@ const Home = () => {
                 </p>
               </div>
             </div>
-            <div className="item-2">
+            <div className="cards">
+              <div className="image-Div">
+                <div className="icon-Div">
+                  <CardTravelSharp />
+                </div>
+              </div>
+              <div className="item-containt">
+                <h1>Fresh Atmosphere</h1>
+                <p>
+                When it comes to atmosphere, a small, intimate, and inviting space with a hygienic environment.
+                </p>
+                <p>
+                  Traditional Afghani food with delicious flavors, with the best
+                  ingredients, is something you’ll remember.
+                </p>
+              </div>
+            </div>
+            <div className="cards">
               <div className="image-Div">
                 <div className="icon-Div">
                   <CardTravelSharp />
@@ -146,12 +163,21 @@ const Home = () => {
             <Button variant="contained">View Over Full Menu</Button>
           </div>
           <div className="card-container">
-            <div className="items1">first </div>
-            <div className="items2">second</div>
-            <div className="items3">third </div>
-            <div className="items4">forth</div>
-            <div className="items5">fifth </div>
-            <div className="items6">six</div>
+            <div className="items1"> <img src="/img/food.jpg" alt="meat" /> </div>
+            <div className="items2">
+              <h3 style={{color:"lightcoral"}}>Food GALLERY </h3>
+              <h1 style={{margin:10}}>LET'S TAKE A LOOK</h1>
+              <hr/>
+              <p>Our tasting menus are inspired by the seasons and include fresh, local ingredients in unusual flavor combinations.</p>
+              <Button variant="contained">View Gallery</Button>
+
+
+            </div>
+
+            <div className="items3"> <img src="/img/food.jpg" alt="meat" style={{height:"10%",widht:"10%"}} /></div>
+            <div className="items4"> <img src="/img/food.jpg" alt="meat" /> </div>
+            <div className="items5"> <img src="/img/food.jpg" alt="meat" /></div>
+
           </div>
         </div>
       </div>
