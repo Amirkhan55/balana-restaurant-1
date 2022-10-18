@@ -10,10 +10,6 @@ function App() {
         <Navbar />
       </header>
       <Home />
-      {/* <Menu />
-      <Delivery />
-      <Clients />
-      <About /> */}
     </div>
   );
 }

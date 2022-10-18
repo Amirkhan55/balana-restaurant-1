@@ -1,0 +1,12 @@
+.bottom_navigatiom_bar {
+  height: fit-content;
+  width: auto;
+}
+.bottom_navigatiom_bar li {
+  display: block;
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+  height: 30px;
+  font-weight: bold;
+}
