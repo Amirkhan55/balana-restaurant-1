@@ -1,22 +1,25 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
 import { Link } from "react-scroll";
 import "./bottom_navigation_bar.css";
 const BottomNavbar = () => {
   return (
     <div className="bottom_navigatiom_bar">
-      <nav className="navbar">
+      <nav className="Nav_Bar">
         <ul>
-          <li to="/home">Home</li>
+          <li> <NavLink to="/home">Home</NavLink></li>
+
+        <li>
+          <NavLink to="/about">About</NavLink>
+          </li>
           <li>
-            <Link to="menu">Menu</Link>
+            <NavLink to="/menu">Menu</NavLink>
           </li>
 
+
           <li>
-            <Link to="shop">Delivery</Link>
-          </li>
-          <li>
-            <Link to="about">About</Link>
+          <NavLink to="/delivery">Delivery</NavLink>
           </li>
         </ul>
       </nav>

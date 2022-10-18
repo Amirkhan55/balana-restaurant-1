@@ -1,8 +1,11 @@
 import React from "react";
-
+import NAVBAR from "../../components/Navbar";
 const Menus = () => {
   return (
     <div className="prices">
+   <header className="header_nav">
+        <NAVBAR/>
+      </header>
       <div className="menu-component">
         <img src="/img/Chilli.jpg" alt="aboutimage" />
         <h1>menu</h1>

@@ -1,8 +1,11 @@
 import React from "react";
-
+import NAVBAR from "../../components/Navbar";
 const Delivery = () => {
   return (
     <div className="shop">
+        <header className="header_nav">
+        <NAVBAR/>
+      </header>
       <div className="container">
         <div className="shop__text">
           <div>

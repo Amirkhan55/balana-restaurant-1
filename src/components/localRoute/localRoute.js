@@ -9,7 +9,7 @@ import Home from "../../views/home/Home";
 const localRoute = () => {
   return (
     <div>
-      <Router>
+      <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home />} exact />
           <Route path="/home" element={<Home />} />
@@ -18,7 +18,7 @@ const localRoute = () => {
           <Route path="/client" element={<Clients />} />
           <Route path="/about" element={<About />} />
         </Routes>
-      </Router>
+      </BrowserRouter>
     </div>
   );
 };

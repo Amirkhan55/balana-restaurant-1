@@ -2,6 +2,7 @@
   height: fit-content;
   width: auto;
 }
+
 .bottom_navigatiom_bar li {
   display: block;
   text-decoration: none;
@@ -9,4 +10,6 @@
   cursor: pointer;
   height: 30px;
   font-weight: bold;
+
 }
+

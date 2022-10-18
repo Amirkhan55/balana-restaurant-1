@@ -6,6 +6,7 @@ import {
   WhatsApp,
 } from "@mui/icons-material";
 import { Button } from "@mui/material";
+import NAVBAR from "../../components/Navbar";
 import React from "react";
 import BottomNavbar from "../../components/bottom-nav/bottom_navbar";
 import "./home.css";
@@ -13,6 +14,9 @@ import "./home.css";
 const Home = () => {
   return (
     <div className="hero">
+        <header className="header_nav">
+        <NAVBAR/>
+      </header>
       <div className="banner-image">
         <img
           src="/video/videoplayback.gif"
@@ -33,7 +37,7 @@ const Home = () => {
                   DELIVERY NOW
                 </a>
               </div> */}
-      {/* 
+      {/*
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
           <path
             fill="#fff"
