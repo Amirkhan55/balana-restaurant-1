@@ -2,14 +2,16 @@
   height: fit-content;
   width: auto;
 }
-
-.bottom_navigatiom_bar li {
+.Nav_Bar {
+  justify-content: left;
+}
+.Nav_Bar li {
   display: block;
-  text-decoration: none;
-  color: white;
   cursor: pointer;
   height: 30px;
+  text-decoration: none;
   font-weight: bold;
-
+  text-align: left;
+  justify-content: left;
+  color: goldenrod;
 }
-

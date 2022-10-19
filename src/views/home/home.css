@@ -8,8 +8,8 @@
 .banner-image {
   /* background-image: url("/public/video/videoplayback.gif"); */
   background-repeat: no-repeat;
-  background-size: contain;
-  height: 80%;
+  background-size: cover;
+  height: fit-content;
   width: 100%;
 }
 
@@ -204,6 +204,8 @@
 }
 .taste-items-1 {
   width: 50%;
+
+  padding-top: 10px;
   margin: 0% auto;
   display: grid;
   grid-template-columns: auto auto auto;
@@ -309,10 +311,8 @@ hr {
   background-size: cover;
   object-fit: contain;
   display: block;
-
   margin: 0% auto;
   padding: 40px;
-  opacity: 0.9;
 }
 
 .testimonials-cards {
@@ -342,26 +342,30 @@ hr {
 }
 .bottom-nav {
   padding: 20px;
- display: grid;
- grid-template-columns: auto auto auto;
-  background-color: rgb(77, 51, 51);
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: auto auto auto;
+  background-color: rgb(56, 36, 36);
+}
+.logo-Div {
+  margin: 0% auto;
 }
 .logo-1 {
-  /* background-color: blueviolet; */
+  height: 130px;
+  width: 100%;
 }
 .logo-1 > img {
-  margin: 10px;
-  height: 100px;
+  object-fit: cover;
+  width: 100%;
 }
-.nav-bar {
-/* background-color: rgb(82, 26, 26); */
-}
+
 .social-link {
-
   display: block;
+  text-align: center;
+  justify-content: left;
 }
 
-a{
+a {
   text-decoration: none;
-  color: white;
+  color: goldenrod;
 }

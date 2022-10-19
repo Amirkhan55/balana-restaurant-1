@@ -7,8 +7,6 @@ import Delivery from "./views/delivery/Delivery";
 import Clients from "./views/clients_Detail/Clients";
 import About from "./views/about/About";
 
-
-
 function App() {
   return (
     <div className="App">

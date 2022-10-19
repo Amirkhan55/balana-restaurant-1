@@ -14,10 +14,10 @@ import "./home.css";
 const Home = () => {
   return (
     <div className="hero">
-        <header className="header_nav">
-        <NAVBAR/>
-      </header>
       <div className="banner-image">
+        <header className="header_nav">
+          <NAVBAR />
+        </header>
         <img
           src="/video/videoplayback.gif"
           alt=""
@@ -137,7 +137,9 @@ const Home = () => {
             </div>
           </div>
           <div className="taste-Div">
-            <h1 style={{ fontSize: 60, color: "black" }}>Follow Your Taste</h1>
+            <h1 style={{ fontSize: 40, color: "black", margin: 30 }}>
+              Follow Your Taste
+            </h1>
             <span style={{ fontSize: 25 }}>
               A restaurant with a menu that will excite your taste buds.
             </span>
@@ -149,19 +151,19 @@ const Home = () => {
               </div>
               <div className="taste-item">
                 <img src="/img/food.jpg" alt="meat" />
-                <h2>CHICKen tandoori</h2>
+                <h2>Chicken Tandoori</h2>
                 <Button variant="contained">Show more</Button>
               </div>
               <div className="taste-item">
                 <img src="/img/bbq.jpg" alt="meat" />
-                <h2>Chicken malai</h2>
+                <h2>Standard bbq</h2>
                 <Button variant="contained">Show more</Button>
               </div>
             </div>
             <div className="taste-items-2">
               <div className="taste-item">
                 <img src="/img/rice.jpg" alt="meat" />
-                <h2>Chawal </h2>
+                <h2>Chawal</h2>
                 <Button variant="contained">Show more</Button>
               </div>
               <div className="taste-item">
@@ -171,7 +173,7 @@ const Home = () => {
               </div>
               <div className="taste-item">
                 <img src="/img/rostChicken.jpg" alt="meat" />
-                <h2>Chicken malai</h2>
+                <h2>Chicken Rost</h2>
                 <Button variant="contained">Show more</Button>
               </div>
             </div>
@@ -202,11 +204,9 @@ const Home = () => {
               />
             </div>
             <div className="items4">
-              {" "}
               <img src="/img/ChickenKarahi.webp" alt="meat" />{" "}
             </div>
             <div className="items5">
-              {" "}
               <img src="/img/ChickenKarahi.webp" alt="meat" />
             </div>
           </div>
@@ -244,17 +244,19 @@ const Home = () => {
             </div>
           </div>
           <div className="bottom-nav">
-            <div className="logo-1">
-              <img src="/img/balna.jpg" alt="balana restaurant " />
+            <div className="logo-Div">
+              <div className="logo-1">
+                <img src="/img/wow-balana.png" alt="balana restaurant " />
+              </div>
             </div>
             <div className="nav-bar">
               <BottomNavbar />
             </div>
             <div className="social-link">
-              <Facebook sx={{ color: "white" }} />
-              <br />
-              <Instagram sx={{ color: "white" }} /> <br />
-              <WhatsApp sx={{ color: "white" }} /> <br />
+              <Facebook sx={{ color: "goldenrod" }} />
+
+              <Instagram sx={{ color: "goldenrod" }} />
+              <WhatsApp sx={{ color: "goldenrod" }} />
             </div>
           </div>
         </div>
