@@ -34,6 +34,7 @@
   font-size: 30px;
   font-family: "Dosis", sans-serif;
   font-family: "Roboto Slab", serif;
+  font-weight: normal;
 }
 .both-menu {
   display: grid;

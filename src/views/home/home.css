@@ -9,6 +9,7 @@
   /* background-image: url("/public/video/videoplayback.gif"); */
   background-repeat: no-repeat;
   background-size: cover;
+
   height: fit-content;
   width: 100%;
 }
@@ -59,12 +60,13 @@
   width: 100%;
 }
 .about-restaurant span {
-  color: lightpink;
+  color: lightcoral;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .about-restaurant h1 {
-  word-spacing: 15px;
   font-weight: normal;
-  font-family: fantasy;
+  font-size: 40px;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .intro_of_restaurant {
   display: block;
@@ -254,16 +256,17 @@
   width: 100%;
   margin: 0% auto;
   height: fit-content;
+  margin: 20px;
 }
 
 .food-gallery {
-  width: 100%;
+  width: 70%;
   padding-top: 10px;
   margin: 0% auto;
   display: grid;
-
+  grid-gap: 30px;
   grid-template-columns: auto auto auto;
-  grid-template-rows: 400px 400px 400px;
+  grid-template-rows: 300px 300px 300px;
 }
 .card-container img {
   width: 100%;
@@ -275,6 +278,7 @@
   height: fit-content;
 }
 .items2 {
+  padding-top: 50px;
   text-align: center;
   justify-content: left;
 }
@@ -300,7 +304,7 @@ hr {
   grid-row: 2/3;
   object-fit: contain;
 }
-.items5 {
+.items {
   grid-row: 2/3;
   grid-column: 2/3;
 }
@@ -323,6 +327,7 @@ hr {
   grid-template-columns: auto auto auto;
   grid-template-rows: 250px;
   grid-gap: 10px;
+
 }
 .testimonial-card {
   padding: 20px;

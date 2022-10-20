@@ -13,11 +13,13 @@ import "./home.css";
 
 const Home = () => {
   return (
+
     <div className="hero">
-      <div className="banner-image">
-        <header className="header_nav">
+       <header className="header_nav">
           <NAVBAR />
         </header>
+      <div className="banner-image">
+
         <img
           src="/video/videoplayback.gif"
           alt=""
