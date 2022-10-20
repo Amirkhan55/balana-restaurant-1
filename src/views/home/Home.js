@@ -143,37 +143,51 @@ const Home = () => {
             <span style={{ fontSize: 25 }}>
               A restaurant with a menu that will excite your taste buds.
             </span>
-            <div className="taste-items-1">
+            <div className="taste-items">
               <div className="taste-item">
-                <img src="/img/chicken-rost.png" alt="meat" />
+                <img
+                  src="/img/menu/follow-your-taste/CHICKEN ROAST.png"
+                  alt="meat"
+                />
                 <h2>CHICKEN ROAST</h2>
                 <Button variant="contained">Show more</Button>
               </div>
               <div className="taste-item">
-                <img src="/img/food.jpg" alt="meat" />
-                <h2>Chicken Tandoori</h2>
+                <img
+                  src="/img/menu/follow-your-taste/CHICKEN-KARAHI.png"
+                  alt="meat"
+                />
+                <h2>CHICKEN KARAHI</h2>
                 <Button variant="contained">Show more</Button>
               </div>
               <div className="taste-item">
-                <img src="/img/bbq.jpg" alt="meat" />
-                <h2>Standard bbq</h2>
+                <img
+                  src="/img/menu/follow-your-taste/kabuli-pulao.png"
+                  alt="KABULI PULAO"
+                />
+                <h2>KABULI PULAO</h2>
                 <Button variant="contained">Show more</Button>
               </div>
-            </div>
-            <div className="taste-items-2">
+
               <div className="taste-item">
-                <img src="/img/rice.jpg" alt="meat" />
-                <h2>Chawal</h2>
+                <img
+                  src="/img/menu/follow-your-taste/salads.png"
+                  alt="SALADS"
+                />
+                <h2>SALADS</h2>
                 <Button variant="contained">Show more</Button>
               </div>
               <div className="taste-item">
-                <img src="/img/chickenMalai.jpeg" alt="meat" />
-                <h2>Chicken Malai</h2>
+                <img
+                  src="/img/menu/follow-your-taste/KEBAB-KARAHI.png"
+                  alt="KEBAB KARAHI"
+                />
+                <h2>KEBAB KARAHI</h2>
                 <Button variant="contained">Show more</Button>
               </div>
               <div className="taste-item">
-                <img src="/img/rostChicken.jpg" alt="meat" />
-                <h2>Chicken Rost</h2>
+                <img src="/img/menu/follow-your-taste/MAGHAZ.png" alt="meat" />
+                <h2>MAGHAZ</h2>
                 <Button variant="contained">Show more</Button>
               </div>
             </div>
@@ -182,32 +196,30 @@ const Home = () => {
             <Button variant="contained">View Over Full Menu</Button>
           </div>
           <div className="card-container">
-            <div className="items1">
-              <img src="/img/rostChicken.jpg" alt="meat" />{" "}
-            </div>
-            <div className="items2">
-              <h3 style={{ color: "lightcoral" }}>Food GALLERY </h3>
-              <h1 style={{ margin: 10 }}>LET'S TAKE A LOOK</h1>
-              <hr />
-              <p>
-                Our tasting menus are inspired by the seasons and include fresh,
-                local ingredients in unusual flavor combinations.
-              </p>
-              <Button variant="contained">View Gallery</Button>
-            </div>
-
-            <div className="items3">
-              <img
-                src="/img/food-with-mobile.jpg"
-                alt="meat"
-                style={{ height: "10%", widht: "10%" }}
-              />
-            </div>
-            <div className="items4">
-              <img src="/img/ChickenKarahi.webp" alt="meat" />{" "}
-            </div>
-            <div className="items5">
-              <img src="/img/ChickenKarahi.webp" alt="meat" />
+            <div className="food-gallery">
+              {" "}
+              <div className="items1">
+                <img src="/img/home-food-gallery/food-1.webp" alt="meat" />
+              </div>
+              <div className="items2">
+                <h3>Food GALLERY </h3>
+                <h1>LET'S TAKE A LOOK</h1>
+                <hr />
+                <p>
+                  Our tasting menus are inspired by the seasons and include
+                  fresh, local ingredients in unusual flavor combinations.
+                </p>
+                <Button variant="contained">View Gallery</Button>
+              </div>
+              <div className="items3">
+                <img src="/img/home-food-gallery/food3.webp" alt="meat" />
+              </div>
+              <div className="items4">
+                <img src="/img/home-food-gallery/food-4.webp" alt="meat" />{" "}
+              </div>
+              <div className="items5">
+                <img src="/img/home-food-gallery/food-5.webp" alt="meat" />
+              </div>
             </div>
           </div>
           <div className="testimonials">

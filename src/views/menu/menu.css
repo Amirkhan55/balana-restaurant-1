@@ -20,21 +20,57 @@
   margin-top: 20px;
   height: fit-content;
   width: 100%;
+  display: block;
+}
+.menu-name {
   display: grid;
-  grid-gap: 10px;
-  grid-template-columns: auto auto auto auto;
+  margin: 0% auto;
+  width: 100%;
+  padding: 30px;
+  text-align: center;
+  grid-template-columns: auto auto;
+}
+.menu-name h1 {
+  font-size: 30px;
+  font-family: "Dosis", sans-serif;
+  font-family: "Roboto Slab", serif;
+}
+.both-menu {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  width: 98%;
+  margin: 0% auto;
+  padding: 10px;
+}
+.first-menu {
+  margin-top: 20px;
+  height: fit-content;
+  display: grid;
+  grid-gap: 30px;
+  padding: 5px;
+  grid-template-columns: 47% 47%;
+}
+.second-menu {
+  margin-top: 20px;
+  height: fit-content;
+  display: grid;
+  grid-gap: 30px;
+  padding: 5px;
+  grid-template-columns: 47% 47%;
 }
 .menu-item {
   display: flex;
-  height: fit-content;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  height: 150px;
+  border-radius: 5px;
+  background-color: rgb(241, 247, 249);
 }
 .menu-item-pic {
+  padding-top: 20px;
   flex: 1;
 }
 .menu-item h1 {
   font-size: 20px;
-  color: lightcoral;
+  color: rgb(203, 94, 94);
 }
 .menu-item p {
   color: black;
@@ -42,8 +78,20 @@
 .menu-item-content {
   padding: 20px;
   flex: 2;
+  font-weight: normal;
+  padding-top: 30px;
+  font-family: "Times New Roman", Times, serif;
 }
 .menu-item img {
   object-fit: cover;
   width: 100%;
+}
+.menu-item-price {
+  flex: 1;
+  padding-top: 30px;
+  padding-right: 5px;
+  font-size: small;
+  color: black;
+  font-weight: normal;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
