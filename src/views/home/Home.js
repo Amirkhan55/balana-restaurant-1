@@ -13,18 +13,16 @@ import "./home.css";
 
 const Home = () => {
   return (
-
     <div className="hero">
-       <header className="header_nav">
-          <NAVBAR />
-        </header>
-      <div className="banner-image">
-
-        <img
+      <header className="header_nav">
+        <NAVBAR />
+      </header>
+      <div className="home-components">
+        {/* <img
           src="/video/videoplayback.gif"
           alt=""
           style={{ width: "100%", height: "90%" }}
-        />
+        /> */}
       </div>
       {/* <div className="banner__content">
         <div className="container">
@@ -200,10 +198,10 @@ const Home = () => {
           <div className="card-container">
             <div className="food-gallery">
               {" "}
-              <div className="items1">
+              <div className="food-gallery-item items1">
                 <img src="/img/home-food-gallery/food-1.webp" alt="meat" />
               </div>
-              <div className="items2">
+              <div className="food-gallery-item items2">
                 <h3>Food GALLERY </h3>
                 <h1>LET'S TAKE A LOOK</h1>
                 <hr />
@@ -213,20 +211,20 @@ const Home = () => {
                 </p>
                 <Button variant="contained">View Gallery</Button>
               </div>
-              <div className="items3">
+              <div className="food-gallery-item  items3">
                 <img src="/img/home-food-gallery/food3.webp" alt="meat" />
               </div>
-              <div className="items4">
+              <div className="food-gallery-item items4">
                 <img src="/img/home-food-gallery/food-4.webp" alt="meat" />{" "}
               </div>
-              <div className="items5">
+              <div className="food-gallery-item items5">
                 <img src="/img/home-food-gallery/food-5.webp" alt="meat" />
               </div>
             </div>
           </div>
           <div className="testimonials">
             <h1 style={{ margin: 10 }}>TESTIMONIALS </h1>
-            <p style={{ margin: 50 }}>
+            <p>
               We are always keen to serve our clients because they are the
               source of our success.
             </p>
@@ -257,20 +255,36 @@ const Home = () => {
               </div>
             </div>
           </div>
-          <div className="bottom-nav">
-            <div className="logo-Div">
-              <div className="logo-1">
+          <div className="bottom-navbar">
+            <div className="footer-Div">
+              <div className="logo-Div">
                 <img src="/img/wow-balana.png" alt="balana restaurant " />
+                <h3 style={{ color: "white" }}>
+                  Enjoy Tradional & Health Food
+                </h3>
               </div>
-            </div>
-            <div className="nav-bar">
-              <BottomNavbar />
-            </div>
-            <div className="social-link">
-              <Facebook sx={{ color: "goldenrod" }} />
-
-              <Instagram sx={{ color: "goldenrod" }} />
-              <WhatsApp sx={{ color: "goldenrod" }} />
+              <div className="nav-bar">
+                <h1
+                  style={{
+                    color: "red",
+                    marginBottom: 50,
+                    fontWeight: "normal",
+                  }}
+                >
+                  Quick Links
+                </h1>
+                <BottomNavbar />
+              </div>
+              <div className="social-link">
+                <div className="social-icons">
+                  {" "}
+                  <Facebook sx={{ color: "goldenrod" }} />
+                  <br />
+                  <Instagram sx={{ color: "goldenrod" }} />
+                  <br />
+                  <WhatsApp sx={{ color: "goldenrod" }} />
+                </div>
+              </div>
             </div>
           </div>
         </div>

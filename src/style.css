@@ -14,7 +14,7 @@ body {
   position: sticky;
   top: 0px;
   z-index: 0;
-  height: 70px;
+  height: fit-content;
   min-height: 90px;
   text-align: center;
   font-weight: bold;
@@ -22,7 +22,8 @@ body {
   width: 100%;
   padding: 10px;
   padding: 0 1rem;
-  background-color: rgb(74, 48, 48);
+  background-color: rgb(72, 43, 47);
+  border: none;
 }
 
 .container {
@@ -38,13 +39,13 @@ body {
   top: 0;
   left: 0;
   margin: auto;
-  width: 95%;
+  width: 100%;
   height: fit-content;
   padding: 10px;
 }
 .navbar__text {
   display: flex;
-  height: 60px;
+  height: 120px;
   align-items: center;
   width: 1200px;
   margin: 0 auto;
@@ -53,9 +54,9 @@ body {
   width: 100%;
   flex: 1;
 }
-.logo img {
-  width: fit-content;
-  height: 70px;
+.logo > img {
+  object-fit: cover;
+  width: 100%;
 }
 .navbar__ul {
   flex: 5;

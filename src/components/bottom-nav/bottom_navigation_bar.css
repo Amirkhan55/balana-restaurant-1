@@ -1,6 +1,9 @@
 .bottom_navigatiom_bar {
   height: fit-content;
-  width: auto;
+  width: 108%;
+  padding-top: 10px;
+  margin: 0% auto;
+  background-color: transparent;
 }
 .Nav_Bar {
   justify-content: left;
@@ -8,7 +11,7 @@
 .Nav_Bar li {
   display: block;
   cursor: pointer;
-  height: 30px;
+  height: 35px;
   text-decoration: none;
   font-weight: bold;
   text-align: left;
