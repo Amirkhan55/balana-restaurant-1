@@ -110,22 +110,41 @@ const About = () => {
         </div>
       </div>
 
-      <div className="bottom-nav">
-        <div className="logo-Div">
-          <div className="logo-1">
-            <img src="/img/wow-balana.png" alt="balana restaurant " />
+      <div className="bottom-navbar">
+            <div className="footer-Div">
+              <div className="logo-Div">
+                <img src="/img/wow-balana.png" alt="balana restaurant " />
+                <h3 style={{ color: "white" }}>
+                  Enjoy Tradional & Health Food
+                </h3>
+              </div>
+              <div className="nav-bar">
+                <h1
+                  style={{
+                    color: "red",
+                    marginBottom: 20,
+                    fontWeight: "normal",
+                    textAlign:"left",
+                    marginTop:20
+
+                  }}
+                >
+                  Quick Links
+                </h1>
+                <BottomNavbar />
+              </div>
+              <div className="social-link">
+                <div className="social-icons">
+                  {" "}
+                  <Facebook sx={{ color: "goldenrod" }} />
+                  <br />
+                  <Instagram sx={{ color: "goldenrod" }} />
+                  <br />
+                  <WhatsApp sx={{ color: "goldenrod" }} />
+                </div>
+              </div>
+            </div>
           </div>
-        </div>
-        <div className="nav-bar">
-          <BottomNavbar />
-        </div>
-        <div className="social-link">
-          <Facebook sx={{ color: "goldenrod" }} />
-          <br />
-          <Instagram sx={{ color: "goldenrod" }} /> <br />
-          <WhatsApp sx={{ color: "goldenrod" }} /> <br />
-        </div>
-      </div>
     </div>
   );
 };

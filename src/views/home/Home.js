@@ -7,11 +7,15 @@ import {
 } from "@mui/icons-material";
 import { Button } from "@mui/material";
 import NAVBAR from "../../components/Navbar";
+
 import React from "react";
 import BottomNavbar from "../../components/bottom-nav/bottom_navbar";
 import "./home.css";
+import Menus from "../menu/Menu";
+import { Link } from "react-router-dom";
 
 const Home = () => {
+
   return (
     <div className="hero">
       <header className="header_nav">
@@ -150,7 +154,7 @@ const Home = () => {
                   alt="meat"
                 />
                 <h2>CHICKEN ROAST</h2>
-                <Button variant="contained">Show more</Button>
+                <Link to="/menu"> <Button variant="contained" >Show more</Button></Link>
               </div>
               <div className="taste-item">
                 <img
@@ -158,7 +162,7 @@ const Home = () => {
                   alt="meat"
                 />
                 <h2>CHICKEN KARAHI</h2>
-                <Button variant="contained">Show more</Button>
+                <Link to="/menu"> <Button variant="contained" >Show more</Button></Link>
               </div>
               <div className="taste-item">
                 <img
@@ -166,7 +170,7 @@ const Home = () => {
                   alt="KABULI PULAO"
                 />
                 <h2>KABULI PULAO</h2>
-                <Button variant="contained">Show more</Button>
+                <Link to="/menu"> <Button variant="contained" >Show more</Button></Link>
               </div>
 
               <div className="taste-item">
@@ -175,7 +179,8 @@ const Home = () => {
                   alt="SALADS"
                 />
                 <h2>SALADS</h2>
-                <Button variant="contained">Show more</Button>
+                <Link to="/menu"> <Button variant="contained" >Show more</Button></Link>
+
               </div>
               <div className="taste-item">
                 <img
@@ -183,12 +188,13 @@ const Home = () => {
                   alt="KEBAB KARAHI"
                 />
                 <h2>KEBAB KARAHI</h2>
-                <Button variant="contained">Show more</Button>
+                <Link to="/menu"> <Button variant="contained" >Show more</Button></Link>
               </div>
               <div className="taste-item">
                 <img src="/img/menu/follow-your-taste/MAGHAZ.png" alt="meat" />
                 <h2>MAGHAZ</h2>
-                <Button variant="contained">Show more</Button>
+                <Link to="/menu"> <Button variant="contained" >Show more</Button></Link>
+
               </div>
             </div>
           </div>
@@ -267,8 +273,11 @@ const Home = () => {
                 <h1
                   style={{
                     color: "red",
-                    marginBottom: 50,
+                    marginBottom: 20,
                     fontWeight: "normal",
+                    textAlign:"left",
+                    marginTop:20
+
                   }}
                 >
                   Quick Links

@@ -122,8 +122,7 @@
   width: auto;
   height: 110px;
   color: lightcoral;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   border-radius: 10px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   margin: 10px;
@@ -230,6 +229,14 @@
 }
 .taste-item > button {
   background-color: rgb(224, 93, 93);
+  /* background-color: Transparent; */
+  background-repeat:no-repeat;
+  color: white;
+  border: none;
+  font-weight: bold;
+  width: 180px;
+  cursor:pointer;
+  overflow: hidden;
 }
 .taste-item > button:hover {
   background-color: rgb(199, 72, 72);
@@ -367,7 +374,7 @@ hr {
   flex: 1;
   display: block;
   margin: 0% auto;
-  height: 500px;
+  height: 300px;
 }
 
 .bottom-navbar img {
@@ -385,6 +392,7 @@ hr {
   text-align: center;
 }
 .social-icons {
+  padding-top: 40px;
   width: fit-content;
   margin: 20px;
   margin: 0% auto;
