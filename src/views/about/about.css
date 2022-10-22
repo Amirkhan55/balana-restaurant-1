@@ -18,8 +18,8 @@
 
 .about h3 {
   color: rgba(37, 37, 37, 0.7);
-  font-size: 30px;
-  font-weight: 700;
+  font-size: 20px;
+
 }
 .about h1 {
   font-size: 30px;
@@ -30,11 +30,7 @@
   font-family: fantasy;
   font-weight: nomal;
 }
-.about p {
-  font-size: 18px;
-  color: #8b8b8b;
-  font-weight: 300;
-}
+
 
 .about__btn {
   margin-top: 35px;
@@ -55,7 +51,7 @@
   margin-bottom: 20px;
 }
 .about_us_items {
-  width: 70%;
+  width: 90%;
   margin: 0% auto;
   height: auto;
   padding-top: 10px;
@@ -75,7 +71,7 @@
   padding: 20px;
   object-fit: cover;
   height: fit-content;
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
 }
 
 .about_us_content {
@@ -83,7 +79,7 @@
   padding-top: 40px;
   object-fit: cover;
   height: fit-content;
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
 }
 .about_us_pic {
   display: block;
@@ -129,45 +125,9 @@
   width: fit-content;
   padding-left: 30px;
 }
-.testimonials {
-  width: 100%;
-  background-image: url("/public/img/testimonial.jpeg");
-  background-repeat: no-repeat;
-  height: fit-content;
-  background-size: cover;
-  object-fit: contain;
-  display: block;
-  margin: 0% auto;
-  padding: 40px;
-  text-align: center;
-}
 
-.testimonials-cards {
-  display: grid;
-  margin: 0% auto;
-  width: 70%;
-  grid-template-columns: auto auto auto;
-  grid-template-rows: 250px;
-  grid-gap: 10px;
-}
-.testimonial-card {
-  padding: 20px;
-  border-radius: 10px;
-  margin: 0% auto;
-  justify-content: left;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  text-align: center;
-  height: 290px;
-}
-.testimonials p {
-  margin: 40px;
-  text-align: left;
-}
 
-.testimonial-card h1 {
-  margin-top: 70px;
-  color: black;
-}
+
 .bottom-navbar {
   width: 100%;
   background-color: rgb(22, 42, 41);

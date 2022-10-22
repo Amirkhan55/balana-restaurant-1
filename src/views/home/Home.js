@@ -262,7 +262,7 @@ const Home = () => {
             </div>
           </div>
           <div className="bottom-navbar">
-            <div className="footer-Div">
+            <div className="down-Div">
               <div className="logo-Div">
                 <img src="/img/wow-balana.png" alt="balana restaurant " />
                 <h3 style={{ color: "white" }}>
@@ -270,27 +270,22 @@ const Home = () => {
                 </h3>
               </div>
               <div className="nav-bar">
-                <h1
-                  style={{
-                    color: "red",
-                    marginBottom: 20,
-                    fontWeight: "normal",
-                    textAlign:"left",
-                    marginTop:20
-
-                  }}
+                <h2
                 >
                   Quick Links
-                </h1>
+                </h2>
                 <BottomNavbar />
               </div>
               <div className="social-link">
                 <div className="social-icons">
-                  {" "}
-                  <Facebook sx={{ color: "goldenrod" }} />
-                  <br />
+                <h2
+                > Social Links
+
+                </h2>
+                  <Facebook sx={{ color: "goldenrod",marginTop:"10px" }} />
+
                   <Instagram sx={{ color: "goldenrod" }} />
-                  <br />
+
                   <WhatsApp sx={{ color: "goldenrod" }} />
                 </div>
               </div>

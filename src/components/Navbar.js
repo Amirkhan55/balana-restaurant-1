@@ -6,7 +6,7 @@ const NAVBAR = () => {
     <nav className="navbar">
       <div className="navbar__text">
         <div className="logo">
-          <img src="/img/wow-balana.png" alt="logo" />
+          <img src="/img/wow-balana.png" alt="logo" style={{height:120,width:120}} />
         </div>
         <ul className="navbar__ul">
           <li>
@@ -20,7 +20,7 @@ const NAVBAR = () => {
           </li>
 
           <li>
-            <NavLink to="/delivery">Delivery</NavLink>
+            <NavLink to="/delivery">Gallery</NavLink>
           </li>
 
           {/* <li>

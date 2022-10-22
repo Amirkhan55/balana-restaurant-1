@@ -136,16 +136,18 @@
 }
 .items-containner {
   height: fit-content;
-  width: 70%;
+  width: 80%;
   margin: 0% auto;
-  display: flex;
-  flex-direction: row;
+display: grid;
+grid-template-columns: 400px 400px 400px;
 }
 .cards {
   height: fit-content;
-  width: 450px;
+  width: 380px;
+  margin: 0% auto;
   padding: 50px;
   margin: 10px;
+
   display: flex;
   border-bottom-right-radius: 80px;
   border-top-left-radius: 80px;
@@ -155,6 +157,7 @@
 }
 .item-1 {
   height: fit-content;
+
   width: 450px;
   padding: 50px;
   display: flex;
@@ -319,59 +322,21 @@ hr {
   grid-row: 2/3;
   grid-column: 2/3;
 }
-.testimonials {
-  width: 100%;
-  background-image: url("/public/img/testimonial.jpeg");
-  background-repeat: no-repeat;
-  height: fit-content;
-  background-size: cover;
-  object-fit: contain;
-  display: block;
-  margin: 0% auto;
-  padding: 40px;
-  text-align: center;
-}
-.testimonials > p {
-  text-align: center;
-}
 
-.testimonials-cards {
-  display: grid;
-  margin: 0% auto;
-  width: 70%;
-  grid-template-columns: auto auto auto;
-  grid-template-rows: 250px;
-  grid-gap: 10px;
-}
-.testimonial-card {
-  padding: 20px;
-  border-radius: 10px;
-  justify-content: left;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  text-align: center;
-  height: fit-content;
-}
-.testimonial-card > p {
-  margin: 40px;
-  text-align: center;
-}
-.testimonial-card > h3 {
-  margin-top: 70px;
-}
 .bottom-navbar {
   width: 100%;
   background-color: rgb(22, 42, 41);
+  text-align: center;
 }
-.footer-Div {
-  display: flex;
-  flex-direction: row;
-
-  width: 40%;
+.down-Div {
+ display: grid;
+ grid-template-columns: 350px 500px 300px;
+  width: 70%;
   margin: 0% auto;
+
 }
 
 .logo-Div {
-  flex: 1;
   display: block;
   margin: 0% auto;
   height: 300px;
@@ -383,18 +348,22 @@ hr {
 }
 
 .nav-bar {
-  flex: 1;
+text-align: center;
   margin: 0% auto;
+padding-left: 0px;
+}
+.bottom-navbar h2{
+  color: red;
+  margin-bottom: 10px;
+  margin-top: 50px;
+  font-weight: normal;
+  text-align: left;
 }
 .social-link {
-  flex: 1;
-
   text-align: center;
 }
 .social-icons {
-  padding-top: 40px;
   width: fit-content;
-  margin: 20px;
   margin: 0% auto;
 }
 

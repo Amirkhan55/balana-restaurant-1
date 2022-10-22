@@ -77,7 +77,7 @@ const About = () => {
       </div>
 
       <div className="testimonials">
-        <h1 style={{ margin: 10 }}>TESTIMONIALS </h1>
+        <h1 style={{ margin: 10,color:"black" }}>TESTIMONIALS </h1>
         <p style={{ margin: 50 }}>
           We are always keen to serve our clients because they are the source of
           our success.
