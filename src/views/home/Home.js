@@ -18,10 +18,14 @@ const Home = () => {
 
   return (
     <div className="hero">
+
+      <div className="home-components">
+
       <header className="header_nav">
         <NAVBAR />
       </header>
-      <div className="home-components">
+<h1 style={{color:"white",}}>Balana Afghan restaurant</h1>
+
         {/* <img
           src="/video/videoplayback.gif"
           alt=""

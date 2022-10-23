@@ -4,11 +4,11 @@ import "./menu.css";
 const Menus = () => {
   return (
     <div className="menu-hero">
-       <header className="header_nav">
+
+      <div className="menu-components">
+      <header className="header_nav">
           <NAVBAR />
         </header>
-      <div className="menu-components">
-
         <h1>Menu </h1>
       </div>
       <div className="types-of-menu">

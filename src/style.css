@@ -10,8 +10,8 @@ body {
 
 .header_nav {
   align-items: center;
-  position: -webkit-sticky;
-  position: sticky;
+  /* position: -webkit-sticky;
+  position: sticky; */
   top: 0px;
   z-index: 0;
   height: fit-content;
@@ -22,7 +22,7 @@ body {
   width: 100%;
   padding: 10px;
   padding: 0 1rem;
-  background-color: rgb(72, 43, 47);
+  background-color: transparent;
   border: none;
 }
 

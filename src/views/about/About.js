@@ -7,11 +7,11 @@ import { Facebook, Instagram, WhatsApp } from "@mui/icons-material";
 const About = () => {
   return (
     <div className="about">
-       <header className="header_nav">
+
+      <div className="about-component">
+      <header className="header_nav">
           <NAVBAR />
         </header>
-      <div className="about-component">
-
         <h3>About us</h3>
       </div>
       <div className="about_us">

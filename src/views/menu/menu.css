@@ -4,9 +4,10 @@
 }
 
 .menu-components {
-  height: 60vh;
+
   background-image: url("/public/img/Test2.jpg");
   width: 100%;
+  height: fit-content;
   background-repeat: no-repeat;
   text-align: center;
   margin: 0% auto;

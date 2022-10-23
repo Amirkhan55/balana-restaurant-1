@@ -1,0 +1,27 @@
+.gallery-hero {
+text-align: center;
+  height: fit-content;
+  width: 100%;
+  display: block;
+}
+.gallery__content {
+  height: 450px;
+  background-image: url('/public/img/Test2.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  margin: auto;
+}
+.gallery-cards{
+  display: grid;
+
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto auto;
+  background-color: black;
+}
+.card{
+  display: contents;
+  object-fit: cover;
+  background-color: cadetblue;
+  height: 400px;
+}
