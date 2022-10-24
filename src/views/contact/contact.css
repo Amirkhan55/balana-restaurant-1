@@ -1,0 +1,26 @@
+.contact-hero {
+  width: 100%;
+  height: fit-content;
+  display: block;
+}
+.contact-content {
+  height: 60vh;
+  background-image: url("/public/img/Test2.jpg");
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  margin: 0% auto;
+}
+.contact-content > img {
+  object-fit: contain;
+}
+.contact-content h1 {
+  color: white;
+  font-size: 50px;
+  margin-top: 50px;
+}
+.form-data {
+  display: grid;
+  grid-template-columns: auto auto;
+}

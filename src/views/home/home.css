@@ -14,6 +14,14 @@
 .home-component > img {
   object-fit: cover;
 }
+.larger-style {
+  color: white;
+  font-family: t;
+  font-size: 50px;
+}
+.home-component > h2 {
+  color: white;
+}
 
 .banner__content {
   height: fit-content;
@@ -122,7 +130,7 @@
   width: auto;
   height: 110px;
   color: lightcoral;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   border-radius: 10px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   margin: 10px;
@@ -136,10 +144,11 @@
 }
 .items-containner {
   height: fit-content;
-  width: 80%;
+  width: 65%;
   margin: 0% auto;
-display: grid;
-grid-template-columns: 400px 400px 400px;
+  display: grid;
+
+  grid-template-columns: 400px 400px 400px;
 }
 .cards {
   height: fit-content;
@@ -233,12 +242,12 @@ grid-template-columns: 400px 400px 400px;
 .taste-item > button {
   background-color: rgb(224, 93, 93);
   /* background-color: Transparent; */
-  background-repeat:no-repeat;
+  background-repeat: no-repeat;
   color: white;
   border: none;
   font-weight: bold;
   width: 180px;
-  cursor:pointer;
+  cursor: pointer;
   overflow: hidden;
 }
 .taste-item > button:hover {
@@ -329,11 +338,10 @@ hr {
   text-align: center;
 }
 .down-Div {
- display: grid;
- grid-template-columns: 350px 500px 300px;
+  display: grid;
+  grid-template-columns: 350px 500px 300px;
   width: 70%;
   margin: 0% auto;
-
 }
 
 .logo-Div {
@@ -348,11 +356,11 @@ hr {
 }
 
 .nav-bar {
-text-align: center;
+  text-align: center;
   margin: 0% auto;
-padding-left: 0px;
+  padding-left: 0px;
 }
-.bottom-navbar h2{
+.bottom-navbar h2 {
   color: red;
   margin-bottom: 10px;
   margin-top: 50px;

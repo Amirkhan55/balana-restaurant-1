@@ -21,7 +21,16 @@ const Home = () => {
         <header className="header_nav">
           <NAVBAR />
         </header>
-        <h1 style={{ color: "white" }}>Balana Afghan restaurant</h1>
+        <h2
+          style={{
+            color: "white",
+
+            marginTop: 200,
+          }}
+        >
+          Enjoy Traditional & Healthy Food
+        </h2>
+        <h1 className="larger-style">Balana Afghan Restaurant</h1>
 
         {/* <img
           src="/video/videoplayback.gif"

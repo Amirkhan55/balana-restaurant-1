@@ -7,6 +7,7 @@ import Menus from "./views/menu/Menu";
 import Clients from "./views/clients_Detail/Clients";
 import About from "./views/about/About";
 import Gallery from "./views/Gallery/gallery";
+import Contact from "./views/contact/contact";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Route path="/gallery" element={<Gallery />} />
           <Route path="/client" element={<Clients />} />
           <Route path="/about" element={<About />} />
+          <Route path="/contact" element={<Contact />} />
         </Routes>
       </BrowserRouter>
     </div>

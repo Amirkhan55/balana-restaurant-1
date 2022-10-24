@@ -12,6 +12,15 @@
   width: 100%;
   margin: auto;
 }
+.gallery__content > h1 {
+  color: white;
+  font-size: 60px;
+}
+
+.menu-components > h1 {
+  color: white;
+  font-size: 60px;
+}
 .gallery-cards {
   display: grid;
   width: 55%;
@@ -30,5 +39,5 @@
   transition: transform 0.5s ease;
 }
 .card:hover img {
-  transform: scale(1.5);
+  transform: scale(1.1);
 }

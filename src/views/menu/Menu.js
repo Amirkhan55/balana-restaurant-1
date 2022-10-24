@@ -1,8 +1,14 @@
 import React from "react";
 import NAVBAR from "../../components/Navbar";
-import { Facebook, Instagram, WhatsApp } from "@mui/icons-material";
+import {
+  Facebook,
+  FileDownload,
+  Instagram,
+  WhatsApp,
+} from "@mui/icons-material";
 import "./menu.css";
 import BottomNavbar from "../../components/bottom-nav/bottom_navbar";
+import { Button } from "@mui/material";
 
 const Menus = () => {
   return (
@@ -590,15 +596,21 @@ const Menus = () => {
         </div>
 
         <div className="Download-menu">
-          <button
+          {/* <button
             type="submit"
             onclick="window.open('/public/img/menu-file/10631204_4520928.jpg')"
           >
             Download
-          </button>
-          {/* <Button variant="contained">
-            Download Our Menu <FileDownload />{" "}
-          </Button> */}
+          </button> */}
+          <a
+            href="/img/menu-file/10631204_4520928.jpg"
+            style={{ backgroundColor: "lightcoral" }}
+            download
+          >
+            <Button variant="contained">
+              Download Our Menu <FileDownload />{" "}
+            </Button>
+          </a>
         </div>
 
         <div className="bottom-navbar">

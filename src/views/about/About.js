@@ -11,7 +11,7 @@ const About = () => {
         <header className="header_nav">
           <NAVBAR />
         </header>
-        <h3>About us</h3>
+        <h1>About us</h1>
       </div>
       <div className="about_us">
         <div className="about_us_items">
