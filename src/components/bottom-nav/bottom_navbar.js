@@ -24,7 +24,7 @@ const BottomNavbar = () => {
                 fontSize="small"
                 sx={{ color: "goldenrod" }}
               />{" "}
-              About
+              About Us
             </NavLink>
           </li>
           <li>
@@ -38,12 +38,21 @@ const BottomNavbar = () => {
           </li>
 
           <li>
-            <NavLink to="/delivery">
+            <NavLink to="/gallery">
               <ArrowForwardIosOutlined
                 fontSize="small"
                 sx={{ color: "goldenrod" }}
               />
-              Delivery
+              Gallery
+            </NavLink>
+          </li>
+          <li>
+            <NavLink to="/contact">
+              <ArrowForwardIosOutlined
+                fontSize="small"
+                sx={{ color: "goldenrod" }}
+              />
+              Contact Us
             </NavLink>
           </li>
         </ul>

@@ -1,12 +1,14 @@
 import React from "react";
 import NAVBAR from "../../components/Navbar";
+import { Facebook, Instagram, WhatsApp } from "@mui/icons-material";
 import "./menu.css";
+import BottomNavbar from "../../components/bottom-nav/bottom_navbar";
+
 const Menus = () => {
   return (
     <div className="menu-hero">
-
       <div className="menu-components">
-      <header className="header_nav">
+        <header className="header_nav">
           <NAVBAR />
         </header>
         <h1>Menu </h1>
@@ -582,6 +584,41 @@ const Menus = () => {
               </div>
               <div className="menu-item-price">
                 <h3>PKRs100.00</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="Download-menu">
+          <button
+            type="submit"
+            onclick="window.open('/public/img/menu-file/10631204_4520928.jpg')"
+          >
+            Download
+          </button>
+          {/* <Button variant="contained">
+            Download Our Menu <FileDownload />{" "}
+          </Button> */}
+        </div>
+
+        <div className="bottom-navbar">
+          <div className="down-Div">
+            <div className="logo-Div">
+              <img src="/img/wow-balana.png" alt="balana restaurant " />
+              <h3 style={{ color: "white" }}>Enjoy Tradional & Health Food</h3>
+            </div>
+            <div className="nav-bar">
+              <h2>Quick Links</h2>
+              <BottomNavbar />
+            </div>
+            <div className="social-link">
+              <div className="social-icons">
+                <h2> Social Links</h2>
+                <Facebook sx={{ color: "goldenrod", marginTop: "10px" }} />
+
+                <Instagram sx={{ color: "goldenrod" }} />
+
+                <WhatsApp sx={{ color: "goldenrod" }} />
               </div>
             </div>
           </div>

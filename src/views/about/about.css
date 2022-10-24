@@ -19,7 +19,6 @@
 .about h3 {
   color: rgba(37, 37, 37, 0.7);
   font-size: 20px;
-
 }
 .about h1 {
   font-size: 30px;
@@ -30,7 +29,6 @@
   font-family: fantasy;
   font-weight: nomal;
 }
-
 
 .about__btn {
   margin-top: 35px;
@@ -51,7 +49,7 @@
   margin-bottom: 20px;
 }
 .about_us_items {
-  width: 90%;
+  width: fit-content;
   margin: 0% auto;
   height: auto;
   padding-top: 10px;
@@ -71,7 +69,6 @@
   padding: 20px;
   object-fit: cover;
   height: fit-content;
-
 }
 
 .about_us_content {
@@ -79,7 +76,6 @@
   padding-top: 40px;
   object-fit: cover;
   height: fit-content;
-
 }
 .about_us_pic {
   display: block;
@@ -92,7 +88,6 @@
   width: auto;
   height: 110px;
   color: lightcoral;
-
   border-radius: 10px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
@@ -125,8 +120,6 @@
   width: fit-content;
   padding-left: 30px;
 }
-
-
 
 .bottom-navbar {
   width: 100%;

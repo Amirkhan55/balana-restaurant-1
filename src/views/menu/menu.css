@@ -4,10 +4,10 @@
 }
 
 .menu-components {
-
   background-image: url("/public/img/Test2.jpg");
   width: 100%;
-  height: fit-content;
+
+  height: 60vh;
   background-repeat: no-repeat;
   text-align: center;
   margin: 0% auto;
@@ -100,4 +100,18 @@
   color: black;
   font-weight: normal;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.Download-menu {
+  width: 100%;
+  text-align: center;
+  padding-top: 7%;
+  height: 300px;
+}
+.Download-menu > button {
+  background-color: rgb(220, 80, 80);
+}
+.Download-menu > button:hover {
+  height: 40px;
+  width: 230px;
+  background-color: rgb(220, 80, 80);
 }

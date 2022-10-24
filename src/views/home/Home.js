@@ -11,20 +11,17 @@ import NAVBAR from "../../components/Navbar";
 import React from "react";
 import BottomNavbar from "../../components/bottom-nav/bottom_navbar";
 import "./home.css";
-import Menus from "../menu/Menu";
+
 import { Link } from "react-router-dom";
 
 const Home = () => {
-
   return (
     <div className="hero">
-
       <div className="home-components">
-
-      <header className="header_nav">
-        <NAVBAR />
-      </header>
-<h1 style={{color:"white",}}>Balana Afghan restaurant</h1>
+        <header className="header_nav">
+          <NAVBAR />
+        </header>
+        <h1 style={{ color: "white" }}>Balana Afghan restaurant</h1>
 
         {/* <img
           src="/video/videoplayback.gif"
@@ -158,7 +155,10 @@ const Home = () => {
                   alt="meat"
                 />
                 <h2>CHICKEN ROAST</h2>
-                <Link to="/menu"> <Button variant="contained" >Show more</Button></Link>
+                <Link to="/menu">
+                  {" "}
+                  <Button variant="contained">Show more</Button>
+                </Link>
               </div>
               <div className="taste-item">
                 <img
@@ -166,7 +166,10 @@ const Home = () => {
                   alt="meat"
                 />
                 <h2>CHICKEN KARAHI</h2>
-                <Link to="/menu"> <Button variant="contained" >Show more</Button></Link>
+                <Link to="/menu">
+                  {" "}
+                  <Button variant="contained">Show more</Button>
+                </Link>
               </div>
               <div className="taste-item">
                 <img
@@ -174,7 +177,10 @@ const Home = () => {
                   alt="KABULI PULAO"
                 />
                 <h2>KABULI PULAO</h2>
-                <Link to="/menu"> <Button variant="contained" >Show more</Button></Link>
+                <Link to="/menu">
+                  {" "}
+                  <Button variant="contained">Show more</Button>
+                </Link>
               </div>
 
               <div className="taste-item">
@@ -183,8 +189,10 @@ const Home = () => {
                   alt="SALADS"
                 />
                 <h2>SALADS</h2>
-                <Link to="/menu"> <Button variant="contained" >Show more</Button></Link>
-
+                <Link to="/menu">
+                  {" "}
+                  <Button variant="contained">Show more</Button>
+                </Link>
               </div>
               <div className="taste-item">
                 <img
@@ -192,13 +200,18 @@ const Home = () => {
                   alt="KEBAB KARAHI"
                 />
                 <h2>KEBAB KARAHI</h2>
-                <Link to="/menu"> <Button variant="contained" >Show more</Button></Link>
+                <Link to="/menu">
+                  {" "}
+                  <Button variant="contained">Show more</Button>
+                </Link>
               </div>
               <div className="taste-item">
                 <img src="/img/menu/follow-your-taste/MAGHAZ.png" alt="meat" />
                 <h2>MAGHAZ</h2>
-                <Link to="/menu"> <Button variant="contained" >Show more</Button></Link>
-
+                <Link to="/menu">
+                  {" "}
+                  <Button variant="contained">Show more</Button>
+                </Link>
               </div>
             </div>
           </div>
@@ -274,19 +287,13 @@ const Home = () => {
                 </h3>
               </div>
               <div className="nav-bar">
-                <h2
-                >
-                  Quick Links
-                </h2>
+                <h2>Quick Links</h2>
                 <BottomNavbar />
               </div>
               <div className="social-link">
                 <div className="social-icons">
-                <h2
-                > Social Links
-
-                </h2>
-                  <Facebook sx={{ color: "goldenrod",marginTop:"10px" }} />
+                  <h2> Social Links</h2>
+                  <Facebook sx={{ color: "goldenrod", marginTop: "10px" }} />
 
                   <Instagram sx={{ color: "goldenrod" }} />
 

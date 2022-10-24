@@ -7,9 +7,8 @@ import { Facebook, Instagram, WhatsApp } from "@mui/icons-material";
 const About = () => {
   return (
     <div className="about">
-
       <div className="about-component">
-      <header className="header_nav">
+        <header className="header_nav">
           <NAVBAR />
         </header>
         <h3>About us</h3>
@@ -77,7 +76,7 @@ const About = () => {
       </div>
 
       <div className="testimonials">
-        <h1 style={{ margin: 10,color:"black" }}>TESTIMONIALS </h1>
+        <h1 style={{ margin: 10, color: "black" }}>TESTIMONIALS </h1>
         <p style={{ margin: 50 }}>
           We are always keen to serve our clients because they are the source of
           our success.
@@ -111,40 +110,27 @@ const About = () => {
       </div>
 
       <div className="bottom-navbar">
-            <div className="footer-Div">
-              <div className="logo-Div">
-                <img src="/img/wow-balana.png" alt="balana restaurant " />
-                <h3 style={{ color: "white" }}>
-                  Enjoy Tradional & Health Food
-                </h3>
-              </div>
-              <div className="nav-bar">
-                <h1
-                  style={{
-                    color: "red",
-                    marginBottom: 20,
-                    fontWeight: "normal",
-                    textAlign:"left",
-                    marginTop:20
+        <div className="down-Div">
+          <div className="logo-Div">
+            <img src="/img/wow-balana.png" alt="balana restaurant " />
+            <h3 style={{ color: "white" }}>Enjoy Tradional & Health Food</h3>
+          </div>
+          <div className="nav-bar">
+            <h2>Quick Links</h2>
+            <BottomNavbar />
+          </div>
+          <div className="social-link">
+            <div className="social-icons">
+              <h2> Social Links</h2>
+              <Facebook sx={{ color: "goldenrod", marginTop: "10px" }} />
 
-                  }}
-                >
-                  Quick Links
-                </h1>
-                <BottomNavbar />
-              </div>
-              <div className="social-link">
-                <div className="social-icons">
-                  {" "}
-                  <Facebook sx={{ color: "goldenrod" }} />
-                  <br />
-                  <Instagram sx={{ color: "goldenrod" }} />
-                  <br />
-                  <WhatsApp sx={{ color: "goldenrod" }} />
-                </div>
-              </div>
+              <Instagram sx={{ color: "goldenrod" }} />
+
+              <WhatsApp sx={{ color: "goldenrod" }} />
             </div>
           </div>
+        </div>
+      </div>
     </div>
   );
 };
